@@ -1,0 +1,124 @@
+body{
+  margin: 0px;
+ 
+  font-family: 'Open-Sans', sans-Serif;
+  
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.48) 100%);
+
+  min-height: 100vh;
+  
+}
+
+#page{
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+/*-------------------------------------------------------------------------------*/
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 55px;
+}
+
+nav ul{
+  display: flex;
+  gap: 48px;
+  
+  /*Limpando propriedades automaticas da UL */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a{
+  text-decoration: none;
+  font-size: 18px;
+  color:  #1F1534;
+  opacity: 0.5;
+}
+
+ul li a:hover{
+  font-weight: bold;
+  opacity: 1;
+}
+
+ul, h1{
+  font-family: 'Mulish', sans-Serif;
+}
+
+/*-------------------------------------------------------------------------------*/
+#hero{
+  display: flex;
+  align-items: center;     /* ou Gap: 102px (Espaço entre eles no layout) */
+  justify-content: space-between;
+}
+
+
+h1{
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+
+  width: 490px;
+}
+
+h1 span{
+  font-weight: bold;
+  color: #89C5CC;
+}
+
+section p{
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+  margin: 40px 0;
+}
+
+button{
+  text-transform: uppercase;
+  font-family: 'Open-Sans';
+  color: #F9F9F9;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 14px 32px 15px;
+
+  background-color: #69B99D;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+button:hover{
+  background-color: #508d76;
+  
+}
+
+/*-------------------------------------------------------------------------------*/
+footer{
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+
+  margin-top: 80px;
+  
+}
+
+footer a{
+  font-weight: bold;
+  color: #000;
+}
+
+#balls{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
